@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"next dev"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,15 @@
   },
   "homepage": "https://github.com/laurods/it-app#readme",
   "dependencies": {
+    "axios": "^0.21.0",
+    "file-size": "^1.0.0",
+    "lodash": "^4.17.20",
     "next": "^10.0.3",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^17.0.1",
+    "react-dropzone": "^11.2.4",
+    "react-icons": "^4.1.0",
+    "styled-components": "^5.2.1"
   }
 }
