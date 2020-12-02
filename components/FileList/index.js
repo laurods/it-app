@@ -59,4 +59,4 @@ class FileList extends React.Component{
     }
 }
 
-export default FileList
+export default FileList;

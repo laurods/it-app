@@ -30,5 +30,8 @@ display:flex;
 color:${props => messageColors[props.type || 'default']};
 justify-content: center;
 padding: 15px 0;
-
 `;
+
+
+const StyleUpload = () => <div />;
+export default StyleUpload;
