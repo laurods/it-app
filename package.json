@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/laurods/it-app#readme",
   "dependencies": {
+    "@types/mongodb": "^3.6.0",
     "axios": "^0.21.0",
     "file-size": "^1.0.0",
     "lodash": "^4.17.20",
+    "mongodb": "^3.6.3",
     "next": "^10.0.3",
     "react": "^17.0.1",
     "react-circular-progressbar": "^2.0.3",
