@@ -159,7 +159,7 @@ class FileInput extends React.Component {
 
   render() {
    const {nf, data} = this.state;
-   const { files } = this.props;
+   const files = this.props.files;
    if(files.length > 0){
     files.forEach(file => {     
       this.handleSubmit(file.preview);
