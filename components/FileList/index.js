@@ -8,6 +8,7 @@ class FileList extends React.Component{
     
     render(){
         const { files, onDelete } = this.props;
+
         
         
         return(
@@ -18,6 +19,7 @@ class FileList extends React.Component{
                         <Preview src={uploadedFile.preview} />
                         <div>
                             <strong>{uploadedFile.name}</strong>
+                            <strong>{uploadedFile.preview}</strong>
                             <span>
                                 { !! uploadedFile.url && (
                                     <button onClick={() => onDelete(uploadedFile.id)}>Exlcuir</button>

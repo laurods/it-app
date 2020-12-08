@@ -7,6 +7,7 @@ import GlobalStyle from '../styles/global'
 import { Container, Content } from './styles';
 import Upload from '../components/Upload';
 import FileList from '../components/FileList';
+import FileInput from './FileInput';
 class Home extends Component{
     state = {
         uploadedFiles: [],
@@ -100,7 +101,8 @@ class Home extends Component{
                 <Content>
                     <Upload  onUpload={this.handleUpload}/>
                     { !!uploadedFiles.length && (
-                        <FileList  files={uploadedFiles} onDelete={this.handleDelete}/>
+                        //<FileList  files={uploadedFiles} onDelete={this.handleDelete}/>
+                        <FileInput  files={uploadedFiles} />
                     )}                             
                 </Content>
                 <GlobalStyle />
