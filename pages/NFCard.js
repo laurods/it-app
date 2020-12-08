@@ -88,5 +88,4 @@ class NFCard extends React.Component {
     );
   }
 }
-
 export default NFCard;
