@@ -1,5 +1,5 @@
 import React from "react";
-import NFCard from './NFCard';
+
 
 class FileInput extends React.Component {
   constructor() {
@@ -47,10 +47,7 @@ class FileInput extends React.Component {
             <div>
               <th className="xprod"> Produto</th>
               <th className="custoUn">Custo</th>
-              <div>
-                  {data.map((nf) => <NFCard key={nf.cprod} nf={nf} />)}
-                  
-              </div>
+              
             </div>
           }
           
