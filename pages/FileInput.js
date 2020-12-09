@@ -33,10 +33,11 @@ class FileInput extends React.Component {
     });
     */
    nfsXml.forEach(nfXml => {
-      axios.get(nfXml.preview)
+      axios.get(nfXml.preview, {responseType: 'document'})
       .then(res =>{
-        const nf = res.data;
-        console.log(nf);
+         const nf = res.data;
+         const Det = nf.getElementsByTagName('det');
+         console.log(Det);       
       })
   });
     
