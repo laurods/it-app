@@ -94,8 +94,7 @@ class Home extends Component{
         })
     }
     render(){
-        const { uploadedFiles } = this.state;
-       
+        const { uploadedFiles } = this.state;       
         return(
             <Container>
                 <Content>

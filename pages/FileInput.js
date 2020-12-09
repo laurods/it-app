@@ -31,7 +31,7 @@ class FileInput extends React.Component {
   render() {
    const { data } = this.state;
    const files = this.props.files;
-    
+   console.log(files); 
  
   
   
