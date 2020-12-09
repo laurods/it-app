@@ -7,9 +7,7 @@ import { Container, FileInfo, Preview } from './styles';
 class FileList extends React.Component{
     
     render(){
-        const { files, onDelete } = this.props;
-
-        
+        const { files, onDelete } = this.props;     
         
         return(
             <Container>
