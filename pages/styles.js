@@ -14,7 +14,6 @@ margin: 30px;
 background: #FFF;
 border-radius: 4px;
 padding: 20px;
-
 `;
 
 
