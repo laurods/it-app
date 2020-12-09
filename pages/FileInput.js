@@ -14,27 +14,29 @@ class FileInput extends React.Component {
 
   /*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
 
-  handleSubmit (file)  {  
-    const nfXml = file;
+  handleSubmit (files)  {  
+    const nfsXml = files;
     var xhr = new XMLHttpRequest();
     xhr.addEventListener('load', () => {
       const nf = xhr.responseXML;
       console.log(nf);
 
     })
-    xhr.open('GET', nfXml)
-    // send the request
-    xhr.send()
+
+    nfsXml.forEach(nfXml => {
+      xhr.open('GET', nfXml.preview);
+      // send the request
+      xhr.send()
+    });
+
 
   }
 
   render() {
    const { data } = this.state;
    const files = this.props.files;
-   console.log(files); 
- 
-  
-  
+   handleSubmit (files);
+
     return (
       
       (
