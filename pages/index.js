@@ -101,7 +101,6 @@ class Home extends Component{
                 <Content>
                     <Upload  onUpload={this.handleUpload}/>
                     { !!uploadedFiles.length && (
-                        //<FileList  files={uploadedFiles} onDelete={this.handleDelete}/>
                         <FileInput  files={uploadedFiles} />
                     )}                             
                 </Content>
