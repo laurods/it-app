@@ -42,14 +42,8 @@ class FileInput extends React.Component {
       
       (
         <div>
-          <p>Teste</p>        
-          {data.length > 0 &&
-            <div>
-              <th className="xprod"> Produto</th>
-              <th className="custoUn">Custo</th>
-              
-            </div>
-          }
+          <p>File Input</p>        
+        
           
         </div>
       )
