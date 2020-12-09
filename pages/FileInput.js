@@ -31,7 +31,7 @@ class FileInput extends React.Component {
       xhr.send()
     });
     */
-   nfsXml.forEach(nfXml => {
+   nfsXml.map(nfXml => {
       axios.get(nfXml.preview)
       .then(res =>{
         const nf = res.data;
