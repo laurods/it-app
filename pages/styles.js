@@ -6,10 +6,17 @@ display: flex;
 justify-content: center;
 align-items: center;
 `;
+export const Left = styled.div`
+width: 20%;
+margin: 30px;
+background: #FFF;
+border-radius: 4px;
+padding: 20px;
+`;
+
 
 export const Content = styled.div`
-width: 100%;
-max-width: 600px;
+width: 80%;
 margin: 30px;
 background: #FFF;
 border-radius: 4px;

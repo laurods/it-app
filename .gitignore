@@ -104,8 +104,11 @@ dist
 .tern-port
 
 #backup
+index3.js
 index2.js
+FileInput.js
 FileInput2.js
+FileInput3.js
 
 #.env
 .env.local
