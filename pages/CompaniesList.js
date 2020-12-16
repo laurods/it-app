@@ -1,25 +1,25 @@
 import React from 'react';
-class NFList extends React.Component {
+class CompaniesList extends React.Component {
   constructor() {
     super();
   
    
   }
   render() {  
-    const { nfs } = this.props;    
+    const { companies } = this.props;    
     return (
       <div>  
-           
+          
         <table>
           <thead>
             <tr>
-              <th>NOTAS</th>              
+              <th>FORNECEDORES</th>              
             </tr>
           </thead>
           <tbody>
-            {nfs.map((nf) => (
-              <tr key={nf}>               
-                <td>{nf}</td>               
+            {companies.map((company) => (
+              <tr key={company}>               
+                <td>{company}</td>               
               </tr>
             ))}
           </tbody>
@@ -30,4 +30,4 @@ class NFList extends React.Component {
     );
   }
 }
-export default NFList;
+export default CompaniesList;

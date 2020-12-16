@@ -4,10 +4,11 @@ export const Container = styled.div `
 height: 100%;
 display: flex;
 justify-content: center;
-align-items: center;
+
 `;
 export const Left = styled.div`
 width: 20%;
+height:auto;
 margin: 30px;
 background: #FFF;
 border-radius: 4px;

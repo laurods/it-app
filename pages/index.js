@@ -7,11 +7,14 @@ import GlobalStyle from '../styles/global'
 import { Container, Left, Content } from './styles';
 import Upload from '../components/Upload';
 import NFList from './NFList';
+import CompaniesList from './CompaniesList';
 import ProductsList from './ProductsList';
 class Home extends Component{
     state = {
         uploadedFiles: [],
         nfs: [],
+        products: [],
+        companies: []
     };
     /*
     async componentDidMount(){
@@ -51,7 +54,17 @@ class Home extends Component{
     };
     /*Incio CreateNF*/
     createNF = (data) => {
-        const nf = data;         
+        const nf = data;
+        const nNF = nf.getElementsByTagName('nNF')[0].innerHTML;
+      /*-------------------------------------------------------*/
+     // Verifica se a NF já existe
+      const isNFexist = this.state.nfs.filter(nf => nf===nNF);
+      if(isNFexist.length > 0){
+        alert('Nota fiscal já processada');
+        return;
+      }
+      // Fim Verifica se a NF já existe
+        const xNome = nf.getElementsByTagName('xNome')[0].innerHTML; 
         const Det = nf.getElementsByTagName('det');
         const xProd = nf.getElementsByTagName("xProd");
         const uCom = nf.getElementsByTagName("uCom");
@@ -154,6 +167,8 @@ class Home extends Component{
      //Criando novo objeto nfList com atributos calculados.
      const nfList = det.det.map((produto, indice) => {
        const row = {
+         id: uniqueId(), 
+         nnf: nNF,
          cean: cean.cean[indice],
          ceantrib: ceantrib.ceantrib[indice],          
          xprod: xprod.xprod[indice],
@@ -176,7 +191,9 @@ class Home extends Component{
  /*-------------------------------------------------------*/
         /*Atualiza o state*/
         this.setState({
-            nfs: this.state.nfs.concat(nfList),
+          products: this.state.products.concat(nfList),
+          nfs: this.state.nfs.concat(nNF),
+          companies: this.state.companies.concat(xNome),
         });
         /*Fim Atualiza o state*/       
        // console.log(this.state.nfs);
@@ -238,18 +255,21 @@ class Home extends Component{
         })
     }
     render(){
-        const { uploadedFiles, nfs } = this.state;       
+        const { uploadedFiles, nfs, products, companies } = this.state;             
         return(
             <Container>
                 <Left>
                   <Upload  onUpload={this.handleUpload}/>
                   { !!nfs.length && (
-                        <NFList products={nfs} />
+                      <div>
+                        <CompaniesList companies={companies} />
+                         <NFList nfs={nfs} />
+                      </div>
                    )}
                 </Left>  
                 <Content>                    
-                    { !!nfs.length && (
-                        <ProductsList products={nfs} />
+                    { !!products.length && (
+                        <ProductsList products={products} />
                    )}                                                 
                 </Content>
               

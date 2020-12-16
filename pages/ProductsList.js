@@ -21,7 +21,7 @@ class ProductsList extends React.Component {
           </thead>
           <tbody>
             {products.map((product) => (
-              <tr key={product.ceantrib}>
+              <tr key={product.id}>
                 <td>{product.xprod}</td>
                 <td>R${product.custoUn}</td>
                 <td>{product.qcom}</td>
