@@ -4,8 +4,16 @@ import Button from '@material-ui/core/Button';
 function Iam() {
   return (
     <div>
-       <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
-        Sou <strong>Lauro de Sá</strong>, administrador de formação e amante de Tecnologia da Informação.
+      <Typography        
+        variant="h4"
+        align="center"
+        color="textPrimary"
+        gutterBottom
+      >
+        Lauro de Sá
+      </Typography>
+      <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
+        Sou Lauro de Sá, administrador de formação e amante de Tecnologia da Informação.
         
         Em 2010, sai da area administrativa e entrei na área da TI como docente
         de informática.
