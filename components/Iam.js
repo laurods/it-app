@@ -13,21 +13,20 @@ function Iam() {
         Lauro de Sá
       </Typography>
       <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
-        Sou Lauro de Sá, administrador de formação e amante de Tecnologia da Informação.
+        Administrador de formação e amante de Tecnologia da Informação.
         
-        Em 2010, sai da area administrativa e entrei na área da TI como docente
+        Em 2010, migrei da area administrativa para área da TI como docente
         de informática.
      
-      Atualmente estou me especializando em desenvolvimento Web na Trybe.
+        Atualmente estou me especializando em desenvolvimento web na Trybe.
       
         Os projetos que desenvolvi tem me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
         hospedado na Vercel.
      
         
-        Outro projeto foi meu primeiro software para uma lancheria que imprime
-        pedidos. É especial porque foi o primeiro que recebi dinheiro para
-        desenvolve-lo.
+        Outro projeto importante foi o software de pedidos para uma lancheria,
+        foi o meu primeiro projeto remunerado.
         
         </Typography>
       <Button variant="contained" color="primary">
