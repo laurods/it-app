@@ -1,10 +1,12 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import Button from '@material-ui/core/Button';
+import Grid from '@material-ui/core/Grid';
 function Iam() {
   return (
     <div>
-      <Typography        
+    <Grid container spacing={4}>
+    <Grid xs={4} sm={6} md={4}>
+    <Typography        
         variant="h4"
         align="center"
         color="textPrimary"
@@ -12,7 +14,10 @@ function Iam() {
       >
         Lauro de Sá
       </Typography>
-      <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
+
+    </Grid>
+    <Grid xs={8} sm={6} md={4}>
+    <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
         Administrador de formação e amante de Tecnologia da Informação.
         
         Migrei da area administrativa para área da TI como docente
@@ -29,9 +34,11 @@ function Iam() {
         foi o meu primeiro projeto remunerado.
         
         </Typography>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
+        
+    </Grid>
+
+    </Grid>
+      
     </div>
   );
 }
