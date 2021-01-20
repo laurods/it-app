@@ -13,9 +13,13 @@ function Iam() {
         Lauro de Sá
       </Typography>
       <Typography variant="h5" align="center" color="textSecondary" paragraph>
-        Something short and leading about the collection below—its contents, the
-        creator, etc. Make it short and sweet, but not too short so folks
-        don&apos;t simply skip over it entirely.
+        Administrador de formação e amante de Tecnologia da Informação. Em 2010, por gostar de ensinar e aprender, sai da
+        area administrativa e entrei na área da TI como docente de informática. Aprendi muito como autodidata.
+        Atualmente estou me especializando em desenvolvimento Web na Trybe. 
+        Os projetos que desenvolvi tem me orgulhado, como por exemplo a Calculadora de Impostos, onde utilizei NextJs,
+        MongoDb na nuvem da AWS, hospedado na Vercel.
+        Outro projeto foi meu primeiro software para uma lancheria que imprime pedidos. É especial porque foi o primeiro
+        que recebi dinheiro para desenvolve-lo. 
       </Typography>
     </div>
   );
