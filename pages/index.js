@@ -5,7 +5,7 @@ import Iam from '../components/Iam';
 function Home() {
   return (
     <div>
-      <CssBaseline />
+     
       <main>
         <Container maxWidth="sm">
          <Iam />
