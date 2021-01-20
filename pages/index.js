@@ -10,12 +10,12 @@ function Home() {
      <TopBar />
 
       <main>
-        
-
-        <Container maxWidth="sm">
-        <Iam />
-        
-
+        <Container>
+        <Grid container spacing={3}>
+        <Grid item xs={12}>       
+         <Iam />
+        </Grid>
+        </Grid>
         </Container>
       </main>
     </div>
