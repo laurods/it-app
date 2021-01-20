@@ -4,17 +4,16 @@ function Iam() {
   return (
     <div>
       <Typography
-        component="h1"
-        variant="h2"
+        component="h2"
         align="center"
         color="textPrimary"
         gutterBottom
       >
         Lauro de Sá
       </Typography>
-      <Typography variant="h5" align="center" color="textSecondary" paragraph>
-        Administrador de formação e amante de Tecnologia da Informação. Em 2010, por gostar de ensinar e aprender, sai da
-        area administrativa e entrei na área da TI como docente de informática. Aprendi muito como autodidata.
+      <Typography variant="h6" align="center" color="textSecondary" paragraph>
+        Administrador de formação e amante de Tecnologia da Informação. Em 2010, sai da
+        area administrativa e entrei na área da TI como docente de informática.
         Atualmente estou me especializando em desenvolvimento Web na Trybe. 
         Os projetos que desenvolvi tem me orgulhado, como por exemplo a Calculadora de Impostos, onde utilizei NextJs,
         MongoDb na nuvem da AWS, hospedado na Vercel.
