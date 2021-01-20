@@ -5,7 +5,8 @@ function Iam() {
   return (
     <div>
       <Typography
-        component="h2"
+        component="h1"
+        variant="h2"
         align="center"
         color="textPrimary"
         gutterBottom
@@ -13,20 +14,22 @@ function Iam() {
         Lauro de Sá
       </Typography>
       <Typography variant="h6" align="center" color="textSecondary" paragraph>
-        Administrador de formação e amante de Tecnologia da Informação.
+        <p>Administrador de formação e amante de Tecnologia da Informação.</p>
+        
+        <p>Em 2010, sai da area administrativa e entrei na área da TI como docente
+        de informática.</p>
      
-        Em 2010, sai da area administrativa e entrei na área da TI como docente
-        de informática.
-     
-      Atualmente estou me especializando em desenvolvimento Web na Trybe.
+      <p>Atualmente estou me especializando em desenvolvimento Web na Trybe.</p>
       
-        Os projetos que desenvolvi tem me orgulhado, como por exemplo a
+        <p>Os projetos que desenvolvi tem me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
-        hospedado na Vercel.
+        hospedado na Vercel.</p>
      
+        <p>
         Outro projeto foi meu primeiro software para uma lancheria que imprime
         pedidos. É especial porque foi o primeiro que recebi dinheiro para
         desenvolve-lo.
+        </p>
         </Typography>
       <Button variant="contained" color="primary">
         Primary

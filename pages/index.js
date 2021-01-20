@@ -7,8 +7,9 @@ function Home() {
     <div>
      
       <main>
+      <Iam />
         <Container maxWidth="sm">
-         <Iam />
+         
         
 
         </Container>
