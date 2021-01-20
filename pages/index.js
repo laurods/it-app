@@ -8,7 +8,7 @@ function Home() {
     <div>
       <CssBaseline />
       <main>
-        <Container>
+        <Container maxWidth="sm">
          <Iam />
          <Contact />
 

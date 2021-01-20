@@ -12,13 +12,22 @@ function Iam() {
         Lauro de Sá
       </Typography>
       <Typography variant="h6" align="center" color="textSecondary" paragraph>
-        Administrador de formação e amante de Tecnologia da Informação. Em 2010, sai da
-        area administrativa e entrei na área da TI como docente de informática.
-        Atualmente estou me especializando em desenvolvimento Web na Trybe. 
-        Os projetos que desenvolvi tem me orgulhado, como por exemplo a Calculadora de Impostos, onde utilizei NextJs,
-        MongoDb na nuvem da AWS, hospedado na Vercel.
-        Outro projeto foi meu primeiro software para uma lancheria que imprime pedidos. É especial porque foi o primeiro
-        que recebi dinheiro para desenvolve-lo. 
+        Administrador de formação e amante de Tecnologia da Informação.
+      </Typography>
+      <Typography>
+        Em 2010, sai da area administrativa e entrei na área da TI como docente
+        de informática.
+      </Typography>
+      Atualmente estou me especializando em desenvolvimento Web na Trybe.
+      <Typography>
+        Os projetos que desenvolvi tem me orgulhado, como por exemplo a
+        Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
+        hospedado na Vercel.
+      </Typography>
+      <Typography>
+        Outro projeto foi meu primeiro software para uma lancheria que imprime
+        pedidos. É especial porque foi o primeiro que recebi dinheiro para
+        desenvolve-lo.
       </Typography>
     </div>
   );
