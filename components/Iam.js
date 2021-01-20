@@ -5,7 +5,7 @@ function Iam() {
   return (
     <div>
     <Grid container spacing={4}>
-    <Grid xs={4} sm={6} md={4}>
+    <Grid item={4}>
     <Typography        
         variant="h4"
         align="center"
@@ -16,7 +16,7 @@ function Iam() {
       </Typography>
 
     </Grid>
-    <Grid xs={8} sm={6} md={4}>
+    <Grid item={8}>
     <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
         Administrador de formação e amante de Tecnologia da Informação.
         
@@ -25,7 +25,7 @@ function Iam() {
      
         Atualmente estou me especializando em desenvolvimento web.
       
-        Meus projetos que desenvolvidos tem me orgulhado, como por exemplo a
+        Meus projetos têm me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
         hospedado na Vercel.
      
