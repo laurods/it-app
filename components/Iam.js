@@ -15,12 +15,12 @@ function Iam() {
       <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
         Administrador de formação e amante de Tecnologia da Informação.
         
-        Em 2010, migrei da area administrativa para área da TI como docente
+        Migrei da area administrativa para área da TI como docente
         de informática.
      
-        Atualmente estou me especializando em desenvolvimento web na Trybe.
+        Atualmente estou me especializando em desenvolvimento web.
       
-        Os projetos que desenvolvi tem me orgulhado, como por exemplo a
+        Meus projetos que desenvolvidos tem me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
         hospedado na Vercel.
      
