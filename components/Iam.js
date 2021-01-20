@@ -1,5 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
+import Button from '@material-ui/core/Button';
 function Iam() {
   return (
     <div>
@@ -29,6 +30,9 @@ function Iam() {
         pedidos. É especial porque foi o primeiro que recebi dinheiro para
         desenvolve-lo.
       </Typography>
+      <Button variant="contained" color="primary">
+        Primary
+      </Button>
     </div>
   );
 }
