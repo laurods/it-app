@@ -4,32 +4,31 @@ import Button from '@material-ui/core/Button';
 function Iam() {
   return (
     <div>
-      <Typography
-        component="h1"
-        variant="h2"
+      <Typography        
+        variant="h4"
         align="center"
         color="textPrimary"
         gutterBottom
       >
         Lauro de Sá
       </Typography>
-      <Typography variant="h6" align="center" color="textSecondary" paragraph>
-        <p>Administrador de formação e amante de Tecnologia da Informação.</p>
+      <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
+        Sou administrador de formação e amante de Tecnologia da Informação.
         
-        <p>Em 2010, sai da area administrativa e entrei na área da TI como docente
-        de informática.</p>
+        Em 2010, sai da area administrativa e entrei na área da TI como docente
+        de informática.
      
-      <p>Atualmente estou me especializando em desenvolvimento Web na Trybe.</p>
+      Atualmente estou me especializando em desenvolvimento Web na Trybe.
       
-        <p>Os projetos que desenvolvi tem me orgulhado, como por exemplo a
+        Os projetos que desenvolvi tem me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
-        hospedado na Vercel.</p>
+        hospedado na Vercel.
      
-        <p>
+        
         Outro projeto foi meu primeiro software para uma lancheria que imprime
         pedidos. É especial porque foi o primeiro que recebi dinheiro para
         desenvolve-lo.
-        </p>
+        
         </Typography>
       <Button variant="contained" color="primary">
         Primary
