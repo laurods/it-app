@@ -4,7 +4,7 @@ import AssignmentIcon from '@material-ui/icons/Assignment';
 import Toolbar from '@material-ui/core/Toolbar';
 import AppBar from '@material-ui/core/AppBar';
 
-function AppBar() {
+function TopBar() {
   return (
     <div>
       <AppBar position="relative">
@@ -19,4 +19,4 @@ function AppBar() {
   );
 }
 
-export default AppBar;
+export default TopBar;

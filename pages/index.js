@@ -1,13 +1,13 @@
 import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import Container from "@material-ui/core/Container";
-import AppBar from '../components/AppBar'
+import TopBar from '../components/TopBar'
 import Iam from '../components/Iam';
 function Home() {
   return (
     <div>
      <CssBaseline />
-     <AppBar />
+     <TopBar />
 
       <main>
         
