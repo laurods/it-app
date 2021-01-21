@@ -7,12 +7,12 @@ function Iam() {
     <Grid container spacing={4}>
     <Grid item={4}>
     <Typography        
-        variant="h4"
+        variant="h5"
         align="center"
         color="textPrimary"
         gutterBottom
       >
-        Meus Projetos
+        Breve Apresentação
       </Typography>
 
     </Grid>
@@ -23,7 +23,7 @@ function Iam() {
         Migrei da area administrativa para TI como docente
         de informática.
      
-        Atualmente estou me especializando em desenvolvimento web.
+        Atualmente sou desenvolvedor FRONT-END.
       
         Meus projetos têm me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
@@ -34,7 +34,19 @@ function Iam() {
         foi o meu primeiro projeto remunerado.
         
         </Typography>
+    
         
+    </Grid>
+    <Grid item={4}>
+    <Typography        
+        variant="h5"
+        align="center"
+        color="textPrimary"
+        gutterBottom
+      >
+        Meus Projetos
+      </Typography>
+
     </Grid>
 
     </Grid>

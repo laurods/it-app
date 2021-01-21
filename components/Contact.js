@@ -7,6 +7,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles({
   root: {
@@ -27,11 +28,12 @@ export default function Contact() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="Whats" icon={<WhatsAppIcon />}/>
+      <BottomNavigationAction label="(54) 9.9957-2366" icon={<WhatsAppIcon />}/>
       <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
       <BottomNavigationAction label="LinkIn" icon={<LinkedInIcon />} />
       <BottomNavigationAction label="Facebook" icon={< FacebookIcon/>} />
-      <BottomNavigationAction label="Facebook" icon={< InstagramIcon/>} />
+      <BottomNavigationAction label="Instagram" icon={< InstagramIcon/>} />
+      <BottomNavigationAction label="portalvitrinas@gmail.com" icon={<EmailIcon />}/>
     </BottomNavigation>
   );
 }
