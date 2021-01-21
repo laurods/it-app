@@ -6,6 +6,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 
 const useStyles = makeStyles({
   root: {
@@ -26,6 +27,7 @@ export default function Contact() {
       showLabels
       className={classes.root}
     >
+      <BottomNavigationAction label="Whats" icon={<WhatsAppIcon />}/>
       <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
       <BottomNavigationAction label="LinkIn" icon={<LinkedInIcon />} />
       <BottomNavigationAction label="Facebook" icon={< FacebookIcon/>} />

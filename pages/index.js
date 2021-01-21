@@ -4,6 +4,7 @@ import Container from "@material-ui/core/Container";
 import Grid from '@material-ui/core/Grid';
 import TopBar from '../components/TopBar'
 import Iam from '../components/Iam';
+import Contact from '../components/Contact'
 import CardProjects from '../components/CardProjects';
 function Home() {
   return (
@@ -14,6 +15,9 @@ function Home() {
       <main>
         <Container>
         <Grid container spacing={3}>
+        <Grid item xs={8}>       
+         <Contact />
+        </Grid>
         <Grid item xs={12}>       
          <Iam />
         </Grid>

@@ -12,7 +12,7 @@ function Iam() {
         color="textPrimary"
         gutterBottom
       >
-        Lauro de Sá
+        Meus Projetos
       </Typography>
 
     </Grid>
@@ -27,10 +27,10 @@ function Iam() {
       
         Meus projetos têm me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
-        hospedado na Vercel.
+        e hospedagem na Vercel.
      
         
-        Outro projeto importante foi o software de pedidos para uma lancheria,
+        Outro projeto importante foi o software de Pedidos Delivery,
         foi o meu primeiro projeto remunerado.
         
         </Typography>

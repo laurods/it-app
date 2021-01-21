@@ -11,7 +11,7 @@ function TopBar() {
         <Toolbar>
           <AssignmentIcon />
           <Typography variant="h6" color="inherit" noWrap>
-            Meus Projetos
+            Lauro de Sá
           </Typography>
         </Toolbar>
       </AppBar>
