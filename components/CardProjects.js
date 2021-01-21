@@ -10,10 +10,10 @@ function CarProjects() {
   return (
     <div>
       <Grid container spacing={4}>           
-              <Grid xs={12} sm={6} md={4}>
+              <Grid xs={4} sm={6} md={4}>
                 <Card >                  
                   <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom component="h6">
                       Calculadora de Impostos
                     </Typography>
                     <Typography>
@@ -27,10 +27,11 @@ function CarProjects() {
                     </Button>                    
                   </CardActions>
                 </Card>
-
+                </Grid>
+                <Grid xs={4} sm={6} md={4}>
                 <Card >                  
                   <CardContent>
-                    <Typography gutterBottom variant="h5" component="h2">
+                    <Typography gutterBottom component="h6">
                       Pedidos Delivery
                     </Typography>
                     <Typography>
@@ -44,9 +45,7 @@ function CarProjects() {
                     </Button>                    
                   </CardActions>
                 </Card>
-
-              </Grid>
-
+                </Grid> 
           </Grid>
     </div>
   );
