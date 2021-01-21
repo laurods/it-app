@@ -20,7 +20,7 @@ function Iam() {
     <Typography variant="subtitle1" align="center" color="textSecondary" paragraph>
         Administrador de formação e amante de Tecnologia da Informação.
         
-        Migrei da area administrativa para área da TI como docente
+        Migrei da area administrativa para TI como docente
         de informática.
      
         Atualmente estou me especializando em desenvolvimento web.
