@@ -28,12 +28,12 @@ export default function Contact() {
       showLabels
       className={classes.root}
     >
-      <BottomNavigationAction label="(54) 9.9957-2366" icon={<WhatsAppIcon />}/>
+      <BottomNavigationAction label="Whats" icon={<WhatsAppIcon />}/>
       <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
       <BottomNavigationAction label="LinkIn" icon={<LinkedInIcon />} />
       <BottomNavigationAction label="Facebook" icon={< FacebookIcon/>} />
       <BottomNavigationAction label="Instagram" icon={< InstagramIcon/>} />
-      <BottomNavigationAction label="portalvitrinas@gmail.com" icon={<EmailIcon />}/>
+      <BottomNavigationAction label="gmail" icon={<EmailIcon />}/>
     </BottomNavigation>
   );
 }

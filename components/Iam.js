@@ -12,7 +12,7 @@ function Iam() {
         color="textPrimary"
         gutterBottom
       >
-        Breve Apresentação
+        Apresentação
       </Typography>
 
     </Grid>
@@ -23,7 +23,7 @@ function Iam() {
         Migrei da area administrativa para TI como docente
         de informática.
      
-        Atualmente sou desenvolvedor FRONT-END.
+        Atualmente sou desenvolvedor Front-End.
       
         Meus projetos têm me orgulhado, como por exemplo a
         Calculadora de Impostos, onde utilizei NextJs, MongoDb na nuvem da AWS,
@@ -44,7 +44,7 @@ function Iam() {
         color="textPrimary"
         gutterBottom
       >
-        Meus Projetos
+        Projetos
       </Typography>
 
     </Grid>
